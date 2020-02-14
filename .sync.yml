@@ -3,6 +3,7 @@
 spec/spec_helper.rb:
   hiera_config: spec/fixtures/hiera.yaml
   coverage_report: true
+  mock_with: ':rspec'
 
 spec/default_facts.yml:
   extra_facts:
